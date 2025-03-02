@@ -11269,7 +11269,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590187983}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
   m_Name: 
@@ -15570,9 +15570,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6282136114940262277, guid: 3c5fe113307b85d49b350364e0b9de0b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9175078522742564299, guid: 3c5fe113307b85d49b350364e0b9de0b, type: 3}
       propertyPath: m_Name
       value: "Coraz\xF3n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175078522742564299, guid: 3c5fe113307b85d49b350364e0b9de0b, type: 3}
+      propertyPath: m_TagString
+      value: Vida
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
