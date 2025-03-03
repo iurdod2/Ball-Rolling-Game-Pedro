@@ -1,16 +1,19 @@
-using UnityEngine;
+using UnityEngine; 
 
-public class Coleccionable : MonoBehaviour
+public class Coleccionable : MonoBehaviour 
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // El método Start se llama una vez al inicio, justo antes del primer frame.
     void Start()
     {
-        
     }
 
-    // Update is called once per frame
+    // El método Update se llama una vez por frame, es decir, continuamente durante la ejecución del juego.
     void Update()
     {
+        // Hace que el objeto rote continuamente.
+        // transform.Rotate() aplica una rotación al objeto al que está adjunto este script.
+        // new Vector3(15, 30, 40) define los grados de rotación en los ejes X, Y y Z respectivamente.
+        // Time.deltaTime asegura que la rotación sea suave y consistente, independientemente del framerate.
         transform.Rotate(new Vector3(15, 30, 40) * Time.deltaTime);
     }
 }
